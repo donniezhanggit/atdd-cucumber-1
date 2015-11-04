@@ -1,9 +1,11 @@
+package com.netobjectives.exercises;
+
 import static org.junit.Assert.assertEquals;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-class StepDefinitions { 
+public class StepDefinitions { 
   int celsius = -1; 
   int fahrenheit = -1; 
   @Given("^Celsius is (\\d+)$")
