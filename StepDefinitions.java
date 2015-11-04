@@ -1,5 +1,3 @@
-package com.netobjectives.exercises;
-
 import static org.junit.Assert.assertEquals;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
